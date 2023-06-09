@@ -1,0 +1,152 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .header-button {
+    padding: 8px 16px;
+    background-color: #3182ce;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-button:hover {
+    background-color: #245fa8;
+  }
+  
+  .header-right p {
+    margin: 0;
+  }
+  
+  .py-8 {
+    flex: 1;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+  }
+  
+  .contact-details h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .contact-details p {
+    margin: 0;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    background-color: whitesmoke;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    background-color: #fafafa;
+    border: 1px solid #a9a9a9;
+    color: #000;
+    width: 100%;
+    height: 46px;
+    padding: 10px;
+    position: relative;
+    /* border: 1px solid #ccc;
+    border-radius: 4px; */
+    
+  }
+  
+  /* background-color: #fafafa;
+  border: 1px solid #a9a9a9;
+  box-sizing: border-box;
+  color: #000;
+  height: 46px;
+  padding: 10px;
+  position: relative;
+  width: 100%; */
+
+  button {
+    padding: 8px 16px;
+    background-color: #3182ce;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #245fa8;
+    font-family: inherit;
+
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 20px;
+  }
+  
+  .footer-column h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-contact p {
+    margin: 8px 0;
+  }
+  
+  footer p {
+    margin: 8px 0;
+  }
+  
+  .bg-blue-600 {
+    background-color: #3182ce;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
